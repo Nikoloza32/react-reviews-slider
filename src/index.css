@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: rgb(115, 185, 208);
+  padding: 50px;
+  position: relative;
+  border: 1px solid white;
+}
+.image {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: -90px;
+}
+.slider-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid white;
+}
+
+.slider-name {
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.slider-job {
+  position: relative;
+}
+
+.job {
+  position: relative;
+  bottom: 50px;
+  color: purple;
+  border-bottom: 1px solid purple;
+}
+
+.slider-text {
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.slider-button {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  position: relative;
+}
+
+.style-button {
+  position: relative;
+  font-size: 50px;
+  color: white;
+  background-color: rgb(115, 185, 208);
+  cursor: pointer;
+  border: none;
+}
+
+.style-button:hover {
+  color: black;
+}
+
+.random-button {
+  position: absolute;
+  bottom: 50px;
+  padding: 5px 20px;
+  background: purple;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.random-button:hover {
+  border: 1px solid black;
+  color: black;
+}
